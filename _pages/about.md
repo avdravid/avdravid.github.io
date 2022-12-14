@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* Hi! I'm a Northwestern University computer science and statistics junior with interests in artificial intelligence: specifically representation learning and computer vision.
+* Hi! I'm a Northwestern University computer science and statistics senior with interests in computer vision and representation learning.
 * I am particularly interested in foundational research with broad applications not only to computer science and engineering, but with potential to improve society through avenues such as healthcare. I aim to pursue an academic career in research and teaching at the university level. 
 * I am grateful to be advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL), in addition to collaborating with [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) and the Computational Photography Lab. 
 
@@ -17,7 +17,7 @@ Research
 ======
 * I am driven to understand and transform visual representations of the world around us. 
 * Specifically, one of the major bottlenecks for implementing machine learning models in practice is explainability. We need to develop confidence in order to apply these algorithms in practice, from medical diagnosis to autonomous navigation. The “black-box” nature of many machine learning models is enticing. 
-* My research tackles explainability, out-of-distribution data, domain adaptation, and robustness to adversarial attacks, specifically in a vision context. I am also keen to explore how these concepts impact society in complex issues, such as in healthcare and quality of life.
+* My research tackles causal inference and explainability, domain adaptation/generalization, generative modeling, and self-supervised learning, specifically in a vision context. I am also keen to explore how these concepts impact society in complex issues, such as in healthcare and quality of life.
 
 Publications
 ======
