@@ -8,10 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-* Hi! I'm a Northwestern University computer science and statistics senior with interests in computer vision and representation learning.
-* I am particularly interested in foundational research with broad applications not only to computer science and engineering, but with potential to improve society through avenues such as healthcare. I aim to pursue an academic career in research and teaching at the university level. 
-* I am grateful to be advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL), in addition to collaborating with [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) and the Computational Photography Lab. 
-
+* Hi! I'm a Northwestern University computer science and statistics senior with interests in computer vision and machine learning.
+* I am grateful to be advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL). I have had the pleasure of working with other mentors:[Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group), [Prof. Pietro Perona] (https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) (Northwestern Computational Photography Lab), [Boqing Gong] (http://boqinggong.info/) (Google Research). 
 
 Research
 ======
