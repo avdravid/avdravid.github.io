@@ -23,7 +23,7 @@ Jennifer J. Sun*, Pierre Karashchuk*, **Amil Dravid***, et al.  <br>
 *arXiv Preprint, 2022.*    
 [[pdf]](https://arxiv.org/pdf/2212.07401.pdf) / Code Coming Soon! <br>
 
-<img src="/images/human36m-vid1.gif" alt='' width='200' height='200'> 
+<img src="/images/human36m-vid1.gif" alt='' width='600' height='200'> 
 
 [medXGAN: Visual Explanations for Medical Classifiers through a Generative Latent Space](https://arxiv.org/abs/2204.05376)  
 **Amil Dravid**, Florian Schiffers, Boqing Gong, Aggelos K. Katsaggelos  <br>
