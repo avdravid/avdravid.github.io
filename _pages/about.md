@@ -13,15 +13,15 @@ redirect_from:
 
 Research
 ======
-* I am driven to understand and transform visual representations of the world around us. My research tackles causal inference and explainability, domain adaptation/generalization, generative modeling, and self-supervised learning, specifically in a vision context. I am also keen to explore how these concepts impact society in complex issues, such as in healthcare and quality of life.
+* I am driven to understand and transform visual representations of the world around us. My research tackles causal inference and explainability, domain adaptation/generalization, generative modeling, and self-supervised learning, specifically in a vision context. 
 
 Publications
 ======
 
 [BKinD-3D: Self-Supervised 3D Keypoint Discovery from Multi-View Videos](https://arxiv.org/pdf/2212.07401)  
-Jennifer J. Sun*, Pierre Karashchuk*, **Amil Dravid***, Serim Ryou, Sonia Fereidooni, John Tuthill, Aggelos Katsaggelos, Bingni W Brunton, Georgia Gkioxari, Ann Kennedy, Yisong Yue, Pietro Perona  <br>
+Jennifer J. Sun*, Pierre Karashchuk*, **Amil Dravid***, et al.  <br>
 *arXiv Preprint, 2022.*    
-[[pdf]](https://arxiv.org/pdf/2212.07401.pdf) / [[code]](Coming Soon!) <br>
+[[pdf]](https://arxiv.org/pdf/2212.07401.pdf) / Code Coming Soon! <br>
 
 
 [medXGAN: Visual Explanations for Medical Classifiers through a Generative Latent Space](https://arxiv.org/abs/2204.05376)  
