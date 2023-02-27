@@ -2,7 +2,7 @@
 permalink: /News/
 title: "News"
 ---
-
+**[January 2022]** Our [paper](https://arxiv.org/pdf/2212.07401.pdf) was accepted to *CVPR 2023*! <br> 
 **[December 2022]** I'm honored to receive finalist status for the CRA Outstanding Undergraduate Researcher Award! <br> 
 **[April 2022]** Our paper was accepted to *CVPR 2022 Trusted Computer Vision Workshop* (long paper)! <br> 
 **[April 2022]** I am starting as a research intern in the [Computer Vision Group](https://www.microsoft.com/en-us/research/group/vision/#:~:text=The%20Computer%20Vision%20Group%20conducts,systems%20in%20the%20real%20world.) at Microsoft Research. Mentor: [Vibhav Vineet](http://vibhavvineet.info/).<br>
