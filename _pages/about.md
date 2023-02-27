@@ -20,7 +20,7 @@ Publications
 
 [BKinD-3D: Self-Supervised 3D Keypoint Discovery from Multi-View Videos](https://arxiv.org/pdf/2212.07401)  
 Jennifer J. Sun*, Pierre Karashchuk*, **Amil Dravid***, et al.  <br>
-*arXiv Preprint, 2022.*    
+*CVPR, 2023.*    
 [[pdf]](https://arxiv.org/pdf/2212.07401.pdf) / Code Coming Soon! <br>
 
 <img src="/images/human36m-vid1.gif" alt='' width='600' height='200'> 
