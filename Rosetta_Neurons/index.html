@@ -133,9 +133,9 @@
     </center>
 <img width="100%" src="images/teaser.png">
 <p></p>
-<p><i>We train an MAE to reconstruct each test image at test time, masking 75% of the input patches.
-  The three reconstructed images on the right visualize the progress of this one-sample learning problem.
-  Loss of the main task (green) - object recognition - keeps dropping even after 500 steps of gradient descent, while the network continues to optimize for reconstruction (red).
+<p><i> Our findings demonstrate the existence of matching neurons across different models that
+express a shared concept (such as object contours, object parts, and colors). These concepts emerge without any supervision or manual
+annotations. We visualize the concepts with heatmaps and a novel inversion technique (two right columns).
   </i></p>
 <hr>
     <!--------------------- abstract --------------------->
@@ -143,10 +143,12 @@
     <center><b><span style="font-size:25px">Abstract</span></b><br></center>
     <div class="gap-10"></div>
     <p> 
-    Test-time training adapts to a new test distribution on the fly by optimizing a model for each test input using self-supervision.
-In this paper, we use masked autoencoders for this one-sample learning problem.
-Empirically, our simple method improves generalization on many visual benchmarks for distribution shifts.
-Theoretically, we characterize this improvement in terms of the bias-variance trade-off.
+    Do different neural networks, trained for various vision tasks, share some common representations? In this paper, we demonstrate the existence of common features we call
+“Rosetta Neurons” across a range of models with different architectures, different tasks (generative and discriminative), and different types of supervision (class-supervised, 
+text-supervised, self-supervised). We present an algorithm for mining a dictionary of Rosetta Neurons across several popular vision models: Class Supervised-ResNet50,
+DINO-ResNet50, DINO-ViT, MAE, CLIP-ResNet50, BigGAN, StyleGAN-2, StyleGAN-XL. Our findings suggest that
+certain visual concepts and structures are inherently embedded in the natural world and can be learned by different models regardless of the specific task or architecture,
+and without the use of semantic labels. We can visualize shared concepts directly due to generative models included in our analysis. The Rosetta Neurons facilitate model-tomodel translation enabling various inversion-based manipulations, including cross-class alignments, shifting, zooming, and more, without the need for specialized training.1
     </p>
     <hr>
     <!--------------------- content --------------------->
