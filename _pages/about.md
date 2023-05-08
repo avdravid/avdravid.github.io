@@ -53,7 +53,7 @@ Jennifer J. Sun\*, Pierre Karashchuk\*, **Amil Dravid\***, et al.  <br>
 [Early Upper Aerodigestive Tract Cancer Detection Using Electron Microscopy to Reveal Chromatin Packing Alterations in Buccal Mucosa Cells](https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/abs/early-upper-aerodigestive-tract-cancer-detection-using-electron-microscopy-to-reveal-chromatin-packing-alterations-in-buccal-mucosa-cells/C9AC18A1D01863A8A55F3CC9AE6F9113)  
 Oisín Bugter, Yue Li, Anouk H.G. Wolters, Vasundhara Agrawal, **Amil Dravid**, et al. <br>
 *Microscopy and Microanalysis, 2021.*   
-[Email me for access to pdf.] <br>
+[[pdf]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8939050/pdf/nihms-1704391.pdf) <br>
 
 <img src='/images/early_upper1.PNG' alt='' width='200' height='200'><img src='/images/early_upper2.PNG' alt='' width='200' height='200'>
 
