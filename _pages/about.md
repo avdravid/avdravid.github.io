@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* Hi! I'm a Northwestern University computer science with interests in computer vision and machine learning.
+* Hi! I am an incoming PhD student at Berkeley AI Research, advised by [Prof. Alexei Efros](https://people.eecs.berkeley.edu/~efros/). Currently, I'm a Northwestern University computer science with interests in computer vision and machine learning.
 * I am fortunate to be advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL). I have had the pleasure of working with other mentors: [Prof. Pietro Perona](https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group), [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) (Northwestern Computational Photography Lab), [Boqing Gong](http://boqinggong.info/) (Google Research). 
 
 Research
