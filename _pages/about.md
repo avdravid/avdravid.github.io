@@ -27,10 +27,10 @@ Jennifer J. Sun\*, Pierre Karashchuk\*, **Amil Dravid\***, et al.  <br>
 
 [medXGAN: Visual Explanations for Medical Classifiers through a Generative Latent Space](https://arxiv.org/abs/2204.05376)  
 **Amil Dravid**, Florian Schiffers, Boqing Gong, Aggelos K. Katsaggelos  <br>
-*CVPR Trusted Computer Vision Workshop (long paper), 2022.*    
+*CVPR Trusted Computer Vision Workshop, 2022.*    
 [[pdf]](https://arxiv.org/pdf/2204.05376.pdf) / [[project page]](https://avdravid.github.io/medXGAN_page/) <br>
 
-<img src="/images/teaser.png" alt='' width='400' height='200'> 
+<img src="/images/teaser.png" alt='' width='300' height='150'> 
 
 
 [Investigating the Potential of Auxiliary-Classifier GANs for Image Classification in Low Data Regimes](https://arxiv.org/abs/2201.09120)  
