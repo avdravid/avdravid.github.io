@@ -8,12 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-* Hi! I am an incoming PhD student at Berkeley AI Research, advised by [Prof. Alexei Efros](https://people.eecs.berkeley.edu/~efros/). Currently, I'm a Northwestern University computer science with interests in computer vision and machine learning.
-* I am currently advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL). I have had the pleasure of working with other mentors: [Prof. Pietro Perona](https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group), [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) (Northwestern Computational Photography Lab), [Boqing Gong](http://boqinggong.info/) (Google Research). 
-
-Research
-======
-* I am driven to understand and transform visual representations of the world around us. My research tackles causal inference and explainability, domain adaptation/generalization, generative modeling, and self-supervised learning, specifically in a vision context. 
+* Hi! I am an incoming PhD student at Berkeley AI Research, advised by [Prof. Alexei Efros](https://people.eecs.berkeley.edu/~efros/), with interests in computer vision and machine learning. My research is supported by the DOE Computational Science Graduate Fellowship.
+* I recently graduated from Northwestern with a BS in Computer Science, advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL). I have also had the pleasure of working with: [Prof. Pietro Perona](https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group), [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) (Northwestern Computational Photography Lab), [Boqing Gong](http://boqinggong.info/) (Google Research). 
 
 Publications
 ======
