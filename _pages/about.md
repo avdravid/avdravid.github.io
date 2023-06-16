@@ -13,6 +13,11 @@ redirect_from:
 
 Publications
 ======
+[Rosetta Neurons: Mining the Common Units in a Model Zoo](https://arxiv.org/abs/2306.09346)  
+**Amil Dravid\***, Yossi Gandelsman\*, Alexei A. Efros, Assaf Shocher.  <br>
+*Preprint*    
+[[pdf]](https://arxiv.org/pdf/2306.09346.pdf) / [[website]](https://yossigandelsman.github.io/rosetta_neurons/) / [[code]](https://github.com/yossigandelsman/rosetta_neurons) <br>
+<img src="/images/human36m-vid1.gif" alt='' width='600' height='200'> 
 
 [BKinD-3D: Self-Supervised 3D Keypoint Discovery from Multi-View Videos](https://arxiv.org/pdf/2212.07401)  
 Jennifer J. Sun\*, Pierre Karashchuk\*, **Amil Dravid\***, et al.  <br>
