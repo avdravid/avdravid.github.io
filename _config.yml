@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Amil Dravid"
-  avatar           : "headshot_final.jpg"
-  bio              : "Computer Science Student"
-  location         : "Northwestern University"
+  avatar           : "cs-senior-spotlight-amil-dravid-ad.jpg"
+  bio              : "PhD @ Berkeley AI Research (BAIR)"
+  location         : "UC Berkeley"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YZ8Y-sUAAAAJ"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "_AmilDravid"
   vine             :
   weibo            :
   xing             :
