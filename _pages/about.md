@@ -15,7 +15,7 @@ Publications
 ======
 [Rosetta Neurons: Mining the Common Units in a Model Zoo](https://arxiv.org/abs/2306.09346)  
 **Amil Dravid\***, Yossi Gandelsman\*, Alexei A. Efros, Assaf Shocher.  <br>
-*Preprint*    
+*ICCV, 2023*    
 [[pdf]](https://arxiv.org/pdf/2306.09346.pdf) / [[website]](https://yossigandelsman.github.io/rosetta_neurons/) / [[code]](https://github.com/yossigandelsman/rosetta_neurons) <br>
 <img src="/images/rosetta_teaser.png" alt='' width='600' height='200'> 
 
@@ -42,9 +42,9 @@ Jennifer J. Sun\*, Pierre Karashchuk\*, **Amil Dravid\***, et al.  <br>
 <img src="/images/ac-gan1.PNG" alt='' width='200' height='200'> <img src='/images/ac-gan2.PNG' alt='' width='200' height='200'>
 
 
-[Visual Explanations for Convolutional Neural Networks via Latent Traversal of Generative Adversarial Networks](https://arxiv.org/abs/2111.00116)  
+[Visual Explanations for Convolutional Neural Networks via Latent Traversal of Generative Adversarial Networks (Student Abstract)](https://arxiv.org/abs/2111.00116)  
 **Amil Dravid**, Aggelos K. Katsaggelos  <br>
-*AAAI-2022 Student Abstract Track.*    
+*AAAI, 2022*    
 [[pdf]](https://arxiv.org/pdf/2111.00116.pdf) / [[code]](https://github.com/avdravid/LatentTraversalViz) <br>
 
 <img src="/images/visual_explanations.PNG" alt='' width='200' height='200'> <img src='/images/visual_explanations2.PNG' alt='' width='200' height='200'>
@@ -80,14 +80,3 @@ Emanuel Azcona, Pierre Besson, Yunan Wu, Arjun Punjabi, Adam Martersteck, **Amil
 <img src='/images/employingdeep.PNG' alt='' width='200' height='200'>
 <br>
 <br>
-
-Teaching Experience
-======
-**COMP SCI 349: Machine Learning**-- Spring 2021<br>
-*Teaching Assistant*--I graded coding and written assignments, held multiple weekly office hours, and taught some lectures pertaining to foundational machine learning algorithms. <br>
-
-**Student-Led Mini-Class: Deep Learning in Practice**-- Winter 2021 <br>
-*Lecturer*--I designed and taught a workshop that surveyed various applications of deep learning in professional, industry, and research settings. ∼50 students in this course learned how to code mini-projects in PyTorch and TensorFlow/Keras such as voice recognition or object detection systems.
-
-
-
