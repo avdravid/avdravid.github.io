@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* Hi! I am an incoming PhD student at Berkeley AI Research, advised by [Prof. Alexei Efros](https://people.eecs.berkeley.edu/~efros/), with interests in computer vision and machine learning. My research is supported by the DOE Computational Science Graduate Fellowship.
+* Hi! I am a first year PhD student at Berkeley AI Research, advised by [Prof. Alexei Efros](https://people.eecs.berkeley.edu/~efros/), with interests in computer vision and machine learning. My research is supported by the DOE Computational Science Graduate Fellowship.
 * I recently graduated from Northwestern with a BS in Computer Science, advised by [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) in the Image and Video Processing Lab (IVPL). I have also had the pleasure of working with: [Prof. Pietro Perona](https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Jennifer J. Sun](http://jenjsun.com/) (Incoming Faculty at Cornell), [Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group), [Prof. Ollie Cossairt](https://compphotolab.northwestern.edu/) (Northwestern Computational Photography Lab), [Boqing Gong](http://boqinggong.info/) (Google Research). 
 
 Publications
