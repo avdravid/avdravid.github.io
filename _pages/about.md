@@ -13,7 +13,7 @@ redirect_from:
 
 Publications
 ======
-[Idempotent Generative Network](https://arxiv.org/pdf/2311.01462)  
+[Idempotent Generative Network](https://arxiv.org/abs/2311.01462)  
 Assaf Shocher, **Amil Dravid**, Yossi Gandelsman, Inbar Mosseri, Miki Rubinstein, Alexei A. Efros  <br>
 *ICLR, 2024*    
 [[pdf]](https://arxiv.org/pdf/2311.01462.pdf) / [[website]](https://assafshocher.github.io/IGN/) / [code coming soon!] <br>
