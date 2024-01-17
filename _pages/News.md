@@ -2,6 +2,7 @@
 permalink: /News/
 title: "News"
 ---
+**[January 2024]** Our [paper](https://assafshocher.github.io/IGN/) was accepted to *ICLR 2024*! <br> 
 **[July 2023]** Our [paper](https://yossigandelsman.github.io/rosetta_neurons/) was accepted to *ICCV 2023*! <br> 
 **[April 2023]** I will be attending UC Berkeley for a PhD in AI funded by the DOE CSGF! <br> 
 **[January 2023]** Our [paper](https://arxiv.org/pdf/2212.07401.pdf) was accepted to *CVPR 2023*! <br> 
