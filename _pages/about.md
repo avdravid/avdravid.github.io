@@ -13,6 +13,16 @@ redirect_from:
 
 Publications
 ======
+[Idempotent Generative Network](https://arxiv.org/pdf/2311.01462)  
+Assaf Shocher, **Amil Dravid**, Yossi Gandelsman, Inbar Mosseri, Michael Rubinstein, Alexei A. Efros  <br>
+*ICLR, 2024*    
+[[pdf]](https://arxiv.org/pdf/2311.01462.pdf) / [[website]](https://assafshocher.github.io/IGN/) / [[code coming soon!]] <br>
+<img src="/images/IGN_teaser2.jpg" alt='' width='600' height='200'> 
+
+
+
+GN_teaser2.jpg
+
 [Rosetta Neurons: Mining the Common Units in a Model Zoo](https://arxiv.org/abs/2306.09346)  
 **Amil Dravid\***, Yossi Gandelsman\*, Alexei A. Efros, Assaf Shocher.  <br>
 *ICCV, 2023*    
