@@ -13,10 +13,16 @@ redirect_from:
 
 Publications
 ======
+[Interpreting the Weight Space of Customized Diffusion Models](https://arxiv.org/abs/2406.09413)  
+**Amil Dravid\***, Yossi Gandelsman*, Kuan-Chieh Wang, Rameen Abdal, Gordon Wetzstein, Alexei A. Efros, Kfir Aberman <br>
+*Preprint*    
+[[pdf]](https://arxiv.org/abs/2406.09413.pdf) / [[website]](https://snap-research.github.io/weights2weights/) 
+<img src="/images/w2w.jpg" alt='' width='600' height='200'> 
+
 [Idempotent Generative Network](https://arxiv.org/abs/2311.01462)  
 Assaf Shocher, **Amil Dravid**, Yossi Gandelsman, Inbar Mosseri, Miki Rubinstein, Alexei A. Efros  <br>
 *ICLR, 2024*    
-[[pdf]](https://arxiv.org/pdf/2311.01462.pdf) / [[website]](https://assafshocher.github.io/IGN/) / [code coming soon!] <br>
+[[pdf]](https://arxiv.org/pdf/2311.01462.pdf) / [[website]](https://assafshocher.github.io/IGN/) 
 <img src="/images/IGN_teaser2.jpg" alt='' width='600' height='200'> 
 
 [Rosetta Neurons: Mining the Common Units in a Model Zoo](https://arxiv.org/abs/2306.09346)  
