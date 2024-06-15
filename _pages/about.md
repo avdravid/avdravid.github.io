@@ -17,7 +17,7 @@ Publications
 **Amil Dravid\***, Yossi Gandelsman*, Kuan-Chieh Wang, Rameen Abdal, Gordon Wetzstein, Alexei A. Efros, Kfir Aberman <br>
 *Preprint*    
 [[pdf]](https://arxiv.org/abs/2406.09413.pdf) / [[website]](https://snap-research.github.io/weights2weights/) 
-<img src="/images/w2w.jpg" alt=''width='800'> 
+<img src="/images/w2w.jpg" alt='' width='800'> 
 
 [Idempotent Generative Network](https://arxiv.org/abs/2311.01462)  
 Assaf Shocher, **Amil Dravid**, Yossi Gandelsman, Inbar Mosseri, Miki Rubinstein, Alexei A. Efros  <br>
