@@ -16,7 +16,7 @@ Publications
 [Interpreting the Weight Space of Customized Diffusion Models](https://arxiv.org/abs/2406.09413)  
 **Amil Dravid\***, Yossi Gandelsman*, Kuan-Chieh Wang, Rameen Abdal, Gordon Wetzstein, Alexei A. Efros, Kfir Aberman <br>
 *Preprint*    
-[[pdf]](https://arxiv.org/abs/2406.09413.pdf) / [[website]](https://snap-research.github.io/weights2weights/) 
+[[pdf]](https://arxiv.org/abs/2406.09413.pdf) / [[website]](https://snap-research.github.io/weights2weights/) <br>
 <img src="/images/w2w.jpg" alt='' width='800'> 
 
 
