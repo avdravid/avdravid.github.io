@@ -13,6 +13,7 @@ redirect_from:
 
 Selected Publications 
 ======
+<p style="margin-top: -10px;">Text moved up</p>
 (See my [Google Scholar](https://scholar.google.com/citations?user=YZ8Y-sUAAAAJ&hl=en&oi=ao) for a full list) 
 <hr>
 [Interpreting the Weight Space of Customized Diffusion Models](https://arxiv.org/abs/2406.09413)  
