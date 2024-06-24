@@ -11,8 +11,8 @@ redirect_from:
 * Hi! I am a first year PhD student at Berkeley AI Research, advised by [Prof. Alexei Efros](https://people.eecs.berkeley.edu/~efros/). I am interested in deep learning problems and applications to computer vision. My research is supported by the DOE Computational Science Graduate Fellowship.
 * I graduated from Northwestern with a BS in Computer Science. I have had the pleasure of working with: [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) (Northwestern Image+Video Processing Lab),  [Prof. Pietro Perona](https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Jennifer J. Sun](http://jenjsun.com/) (Incoming Faculty at Cornell), [Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group). 
 
-Selected Publications 
-======
+## Selected Publications 
+
 <p style="margin-top: -10px;">Text moved up</p>
 (See my [Google Scholar](https://scholar.google.com/citations?user=YZ8Y-sUAAAAJ&hl=en&oi=ao) for a full list) 
 <hr>
