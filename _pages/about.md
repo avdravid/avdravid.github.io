@@ -12,11 +12,9 @@ redirect_from:
 * I graduated from Northwestern with a BS in Computer Science. I have had the pleasure of working with: [Prof. Aggelos Katsaggelos](https://ivpl.northwestern.edu/) (Northwestern Image+Video Processing Lab),  [Prof. Pietro Perona](https://www.vision.caltech.edu/team/) (Caltech Vision Group), [Jennifer J. Sun](http://jenjsun.com/) (Incoming Faculty at Cornell), [Vibhav Vineet, Neel Joshi](https://www.microsoft.com/en-us/research/group/vision/people/) (MSR Computer Vision Group). 
 
 
-<h2>Selected Publications</h2>
-<p>(See my <a href="https://scholar.google.com/citations?user=YZ8Y-sUAAAAJ&hl=en&oi=ao">Google Scholar</a> for a full list)</p>
-
-
-
+Selected Publications 
+=======================
+(See my [Google Scholar](https://scholar.google.com/citations?user=YZ8Y-sUAAAAJ&hl=en&oi=ao) for a full list) 
 [Interpreting the Weight Space of Customized Diffusion Models](https://arxiv.org/abs/2406.09413)  
 **Amil Dravid\***, Yossi Gandelsman*, Kuan-Chieh Wang, Rameen Abdal, Gordon Wetzstein, Alexei A. Efros, Kfir Aberman <br>
 <em>Preprint</em> <br>
