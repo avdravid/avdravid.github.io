@@ -14,7 +14,7 @@ redirect_from:
 Selected Publications 
 ======
 (See my [Google Scholar](https://scholar.google.com/citations?user=YZ8Y-sUAAAAJ&hl=en&oi=ao) for a full list) 
-
+<hr>
 [Interpreting the Weight Space of Customized Diffusion Models](https://arxiv.org/abs/2406.09413)  
 **Amil Dravid\***, Yossi Gandelsman*, Kuan-Chieh Wang, Rameen Abdal, Gordon Wetzstein, Alexei A. Efros, Kfir Aberman <br>
 <em>Preprint</em> <br>
