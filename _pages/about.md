@@ -34,10 +34,3 @@ Assaf Shocher, **Amil Dravid**, Yossi Gandelsman, Inbar Mosseri, Miki Rubinstein
 *ICCV, 2023*    
 [[pdf]](https://arxiv.org/pdf/2306.09346.pdf) / [[website]](https://yossigandelsman.github.io/rosetta_neurons/) / [[code]](https://github.com/yossigandelsman/rosetta_neurons) <br>
 <img src="/images/rosetta_teaser.png" alt='' width='600' height='200'> 
-
-[BKinD-3D: Self-Supervised 3D Keypoint Discovery from Multi-View Videos](https://arxiv.org/pdf/2212.07401)  
-Jennifer J. Sun\*, Pierre Karashchuk\*, **Amil Dravid\***, et al.  <br>
-*CVPR, 2023.*    
-[[pdf]](https://arxiv.org/pdf/2212.07401.pdf) / [[website]](https://sites.google.com/view/b-kind/3d?authuser=0) / [[code]](https://github.com/neuroethology/BKinD-3D) <br>
-
-<img src="/images/human36m-vid1.gif" alt='' width='600' height='200'> 
