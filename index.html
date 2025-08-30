@@ -22,6 +22,7 @@
         :root {
             --primary-gradient: linear-gradient(135deg, #3a7bd5 0%, #4c8ef5 100%);
             --accent-gradient: linear-gradient(135deg, #2980b9 0%, #5dade2 100%);
+            --news-gradient: linear-gradient(135deg, #3a7bd5 0%, #4c8ef5 100%);
             --text-primary: #2c3e50;
             --text-secondary: #5a6c7d;
             --bg-light: #f8fafc;
@@ -172,6 +173,70 @@
 
         .links a:hover::before {
             left: 0;
+        }
+
+        /* News section styling */
+        .news-section {
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(58, 123, 213, 0.08) 0%, rgba(76, 142, 245, 0.08) 100%);
+            border-radius: var(--border-radius);
+            margin-bottom: 2rem;
+            border: 1px solid rgba(58, 123, 213, 0.15);
+        }
+
+        .news-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(58, 123, 213, 0.1);
+            transition: var(--transition);
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-item:hover {
+            transform: translateX(10px);
+            padding-left: 1rem;
+        }
+
+        .news-date {
+            font-size: 0.9rem;
+            font-weight: 600;
+            background: var(--news-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            margin-bottom: 0.3rem;
+        }
+
+        .news-content {
+            font-size: 1rem;
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .news-content a {
+            color: #3a7bd5;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .news-content a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .news-badge {
+            display: inline-block;
+            background: var(--news-gradient);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+            vertical-align: top;
         }
 
         /* Paper cards with modern styling */
@@ -332,6 +397,15 @@
                 font-size: 0.9rem;
             }
 
+            .news-section {
+                padding: 1.5rem;
+            }
+
+            .news-item:hover {
+                transform: none;
+                padding-left: 0;
+            }
+
             /* Key mobile enhancement: Stack images above content */
             .paper-card .row {
                 flex-direction: column;
@@ -452,6 +526,42 @@
                                         <a href='https://www.linkedin.com/in/amil-dravid/'><i class="fab fa-linkedin"></i></a>
                                     </div>
                                 </header>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- News Section -->
+                    <div class="news-section fade-in">
+                        <h3 class="subtitle">Latest News</h3>
+                        <div class="news-item">
+                            <div class="news-date">January 2025</div>
+                            <div class="news-content">
+                                New preprint released: <a href="https://arxiv.org/abs/2506.08010">"Vision Transformers Don't Need <em>Trained</em> Registers"</a> 
+                                <span class="news-badge">NEW</span>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">September 2024</div>
+                            <div class="news-content">
+                                Paper accepted at <a href="#">NeurIPS 2024</a>: "Interpreting the Weight Space of Customized Diffusion Models"
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">August 2024</div>
+                            <div class="news-content">
+                                Presented our work on <a href="https://snap-research.github.io/weights2weights/">weights2weights</a> at Berkeley AI Research
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">March 2024</div>
+                            <div class="news-content">
+                                Paper accepted at <a href="#">ICLR 2024</a>: "Idempotent Generative Network"
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-date">September 2023</div>
+                            <div class="news-content">
+                                Started PhD at Berkeley AI Research, advised by <a href="https://people.eecs.berkeley.edu/~efros/">Alexei A. Efros</a>
                             </div>
                         </div>
                     </div>
