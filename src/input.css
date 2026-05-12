@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@source "../index.html";
+@source not "../index.legacy.html";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --color-link: #6E9999;
+}
+
+@layer base {
+  html,
+  body {
+    overscroll-behavior-y: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .link {
+    @apply text-link underline decoration-link/35 underline-offset-4 transition-colors hover:text-neutral-950 hover:decoration-neutral-950;
+  }
+
+  .icon-link {
+    @apply inline-flex items-center justify-center text-lg text-link transition-colors hover:text-neutral-950;
+  }
+
+  .icon-text-link {
+    @apply inline-flex items-center gap-1.5 text-link underline decoration-link/35 underline-offset-4 transition-colors hover:text-neutral-950 hover:decoration-neutral-950;
+  }
+
+  .icon-text-link i {
+    font-size: 0.85em;
+    color: var(--color-link);
+  }
+
+  .section-heading {
+    @apply border-b border-neutral-200 pb-3 text-xl font-medium uppercase tracking-normal text-neutral-950;
+  }
+
+  .prose-copy {
+    @apply max-w-3xl text-base leading-7 text-neutral-950;
+  }
+
+  .news-item {
+    @apply grid gap-1 text-base leading-7 text-neutral-950 sm:grid-cols-[8.5rem_minmax(0,1fr)] sm:gap-6;
+  }
+
+  .news-item time {
+    @apply text-sm text-neutral-950;
+  }
+
+  .publication {
+    @apply grid gap-5 py-8 md:grid-cols-[220px_minmax(0,1fr)] md:gap-8;
+  }
+
+  .publication-image {
+    @apply w-full object-cover;
+  }
+
+  .publication-title {
+    @apply text-xl font-medium leading-snug text-neutral-950;
+  }
+
+  .publication-authors {
+    @apply mt-2 text-base leading-7 text-neutral-950;
+  }
+
+  .publication-venue {
+    @apply mt-2 text-sm font-medium text-neutral-950;
+  }
+
+  .publication-links {
+    @apply mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm;
+  }
+}
