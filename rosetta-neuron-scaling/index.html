@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Neuron Populations Exhibit Divergent Selectivity with Scale — a scaling-law study of Rosetta Neurons in language and vision models."
+    />
+    <meta property="og:title" content="Neuron Populations Exhibit Divergent Selectivity with Scale" />
+    <meta
+      property="og:description"
+      content="Rosetta Neurons follow a sublinear power law with model size, become more selective and specialized, and polarize away from a polysemantic background."
+    />
+    <meta property="og:image" content="images/teaser.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Neuron Populations Exhibit Divergent Selectivity with Scale</title>
+  </head>
+  <body>
+    <main class="wrap">
+      <!-- ===================== HERO ===================== -->
+      <header class="hero">
+        <h1>Neuron Populations Exhibit Divergent Selectivity with Scale</h1>
+
+        <p class="authors">
+          <a href="https://avdravid.github.io/">Amil Dravid</a><sup>1</sup>,
+          <a href="https://sites.google.com/view/yasamanbahri/home/">Yasaman Bahri</a><sup>1</sup>,
+          <a href="https://people.eecs.berkeley.edu/~efros/">Alexei A. Efros</a><sup>1</sup>,
+          <a href="https://yossigandelsman.github.io/">Yossi Gandelsman</a><sup>2</sup>
+        </p>
+
+        <p class="affil">
+          <sup>1</sup>UC Berkeley
+          <span class="sep">&bull;</span>
+          <sup>2</sup>TTIC
+        </p>
+
+        <!-- TODO: replace href="#" with arXiv abstract URL, code repo URL, and slides URL -->
+        <nav class="links" aria-label="Resource links">
+          <a class="btn" href="#">
+            <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+            <span>arXiv</span>
+          </a>
+          <a class="btn" href="#">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>Code</span>
+          </a>
+          <a class="btn" href="#">
+            <i class="fa-regular fa-file-powerpoint" aria-hidden="true"></i>
+            <span>Slides</span>
+          </a>
+          <a class="btn" href="#bibtex">
+            <i class="fa-solid fa-quote-left" aria-hidden="true"></i>
+            <span>BibTeX</span>
+          </a>
+        </nav>
+      </header>
+
+      <!-- ===================== TEASER ===================== -->
+      <figure class="teaser">
+        <img
+          src="images/teaser.png"
+          alt="Neuron populations across scale: universality, selectivity, and specialization of Rosetta Neurons."
+        />
+        <figcaption>
+          <b>Neuron populations across scale.</b> To study how neuron
+          populations scale, we use <em>Rosetta Neurons</em>: units that recur
+          across different models. <b>(A)</b> Under finite neuron capacity,
+          features compete for fewer neurons, leaving them isolated, mixed, or
+          unrepresented at a given scale. This picture guides our analysis of
+          universality, selectivity, and specialization. <b>(B) Universality:</b>
+          how does the shared neuron population scale? <b>(C) Selectivity:</b>
+          do recurring neurons become increasingly monosemantic relative to
+          polysemantic neurons? <b>(D) Specialization:</b> which features of
+          the data distribution are encoded by Rosetta Neurons at different
+          scales? Across language and vision models, Rosetta Neurons grow but
+          vanish as a fraction of all neurons, while becoming increasingly
+          selective and specialized.
+        </figcaption>
+      </figure>
+
+      <!-- ===================== ABSTRACT ===================== -->
+      <section id="abstract">
+        <h2 class="section-heading">Abstract</h2>
+        <p class="lead">
+          We investigate whether neuron populations within neural networks
+          evolve predictably with scale, extending scaling laws beyond
+          macroscopic observables such as loss. To probe this question, we study
+          <a href="https://arxiv.org/abs/2306.09346"><em>Rosetta Neurons</em></a>, a previously characterized class of neurons
+          whose activation patterns are similar across independently trained
+          models. In separate analyses of language models up to 30B parameters
+          and vision models up to 5B parameters, we observe that the population
+          of Rosetta Neurons follows a sublinear power law in model size,
+          growing in absolute number but occupying a shrinking fraction of the
+          total neuron count. We further observe a
+          <em>Neuron Polarization Effect</em>: Rosetta Neurons become more
+          selective and increasingly monosemantic with scale, separating from a
+          growing non-Rosetta population that remains less selective. An
+          analytical model balancing feature utility against limited neuron
+          capacity explains the sublinear power-law scaling and this
+          polarization effect. Finally, we find that Rosetta Neurons become more
+          domain-specialized with scale and illustrate their selectivity through
+          a targeted data-filtering case study for continued pretraining. Our
+          results point to a scaling law for interpretable, shared neuron-level
+          structure, linking model size to systematic changes in neuron
+          universality, selectivity, and specialization.
+        </p>
+      </section>
+
+      <!-- ===================== GALLERY ===================== -->
+      <section id="gallery">
+        <h2 class="section-heading">Rosetta Neuron Visualizations</h2>
+        <p class="gallery-intro">
+          Each panel visualizes an example Rosetta Neuron shared across
+          independently trained models, along with representative
+          top-activating inputs. These examples provide a qualitative view of
+          the broader phenomenon studied in our paper: Rosetta Neurons offer a
+          scalable way to identify shared, interpretable structure within large
+          models, revealing a recurring neuron-level population that evolves
+          predictably with scale.
+        </p>
+        <p class="gallery-intro hint">Click any panel to enlarge.</p>
+
+        <nav class="tab-bar" role="tablist" aria-label="Modality">
+          <button
+            type="button"
+            role="tab"
+            class="tab-btn active"
+            data-tab="language"
+            aria-selected="true"
+          >
+            Language Models
+          </button>
+          <button
+            type="button"
+            role="tab"
+            class="tab-btn"
+            data-tab="vision"
+            aria-selected="false"
+          >
+            Vision Models
+          </button>
+        </nav>
+
+        <!-- LANGUAGE PANEL -->
+        <div class="gallery-panel active" data-tab="language" role="tabpanel">
+          <div class="picker-label">
+            <span class="picker-axis">Model scale</span>
+            <svg class="picker-arrow" viewBox="0 0 28 14" aria-hidden="true">
+              <path d="M2 7 H22 M16 1 L24 7 L16 13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="picker" role="radiogroup" aria-label="Pythia size">
+            <button type="button" data-scale="0" class="active">~160M</button>
+            <button type="button" data-scale="1">~410M</button>
+            <button type="button" data-scale="2">~1.4B</button>
+            <button type="button" data-scale="3">~2.8B</button>
+            <button type="button" data-scale="4">~6.9B</button>
+            <button type="button" data-scale="5">~12B</button>
+          </div>
+          <div class="picker-subhead"></div>
+          <div class="panels">
+            <figure class="panel" data-slot="a">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+            <figure class="panel" data-slot="b">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+            <figure class="panel" data-slot="c">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+            <figure class="panel" data-slot="d">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- VISION PANEL -->
+        <div class="gallery-panel" data-tab="vision" role="tabpanel" hidden>
+          <div class="picker-label">
+            <span class="picker-axis">Model scale</span>
+            <svg class="picker-arrow" viewBox="0 0 28 14" aria-hidden="true">
+              <path d="M2 7 H22 M16 1 L24 7 L16 13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="picker" role="radiogroup" aria-label="Vision model">
+            <button type="button" data-scale="0" class="active">~150M</button>
+            <button type="button" data-scale="1">~400M</button>
+            <button type="button" data-scale="2">~1B</button>
+            <button type="button" data-scale="3">~1.6B</button>
+            <button type="button" data-scale="4">~4B</button>
+          </div>
+          <div class="picker-subhead"></div>
+          <div class="panels">
+            <figure class="panel" data-slot="a">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+            <figure class="panel" data-slot="b">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+            <figure class="panel" data-slot="c">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+            <figure class="panel" data-slot="d">
+              <img alt="" decoding="async" />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== ACKNOWLEDGMENTS ===================== -->
+      <section id="acknowledgments">
+        <h2 class="section-heading">Acknowledgments</h2>
+        <p class="ack">
+          We thank members of Berkeley AI Research and the Redwood Center for
+          Theoretical Neuroscience for helpful discussions. We are particularly
+          grateful to Mason Kamb, Phillip Isola, David Bau, Yizhou Liu, Sophie
+          Wang, Grace Luo, Stephanie Fu, Jasmine Shone, Tamar Rott Shaham, and
+          Tyler Bonnen for their thoughtful feedback. YB is a visiting scholar
+          at UC Berkeley and member of the Simons Collaboration on the Physics
+          of Learning &amp; Neural Computation. AD is supported by the US
+          Department of Energy Computational Science Graduate Fellowship.
+          Additional support came from ONR MURI, NSF IIS-2403305, and the
+          Google-BAIR Commons Program.
+        </p>
+      </section>
+
+      <!-- ===================== BIBTEX ===================== -->
+      <section id="bibtex">
+        <h2 class="section-heading">BibTeX</h2>
+        <pre>@article{dravid2026neuron,
+  title   = {Neuron Populations Exhibit Divergent Selectivity with Scale},
+  author  = {Dravid, Amil and Bahri, Yasaman and
+             Efros, Alexei A. and Gandelsman, Yossi},
+  journal = {arXiv preprint},
+  year    = {2026}
+}</pre>
+      </section>
+
+      <!-- ===================== LIGHTBOX ===================== -->
+      <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged panel">
+        <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+        <img alt="" />
+        <p class="lightbox-cap"></p>
+      </div>
+
+      <footer>
+        <p>
+          Page style adapted from
+          <a href="https://avdravid.github.io/">avdravid.github.io</a>.
+        </p>
+      </footer>
+    </main>
+
+    <script>
+      // ===================== Gallery data =====================
+      const DATA = {
+        language: [
+          {
+            pair: "Pythia-160M ↔ GPT2-124M ↔ OPT-125M",
+            items: [
+              { src: "images/lang/scale0_a.png", cap: "Pythia-160M: L5/U1767 · GPT2-124M: L7/U1625 · OPT-125M: L1/U2325" },
+              { src: "images/lang/scale0_b.png", cap: "Pythia-160M: L5/U1898 · GPT2-124M: L8/U557 · OPT-125M: L8/U2115" },
+              { src: "images/lang/scale0_c.png", cap: "Pythia-160M: L10/U2431 · GPT2-124M: L11/U424 · OPT-125M: L8/U2837" },
+              { src: "images/lang/scale0_d.png", cap: "Pythia-160M: L0/U2626 · GPT2-124M: L9/U649 · OPT-125M: L0/U888" },
+            ],
+          },
+          {
+            pair: "Pythia-410M ↔ GPT2-355M ↔ OPT-350M",
+            items: [
+              { src: "images/lang/scale1_a.png", cap: "Pythia-410M: L10/U3047 · GPT2-355M: L19/U1698 · OPT-350M: L12/U927" },
+              { src: "images/lang/scale1_b.png", cap: "Pythia-410M: L9/U1693 · GPT2-355M: L15/U1724 · OPT-350M: L13/U846" },
+              { src: "images/lang/scale1_c.png", cap: "Pythia-410M: L23/U39 · GPT2-355M: L23/U149 · OPT-350M: L23/U2921" },
+              { src: "images/lang/scale1_d.png", cap: "Pythia-410M: L23/U3863 · GPT2-355M: L23/U1026 · OPT-350M: L22/U1841" },
+            ],
+          },
+          {
+            pair: "Pythia-1.4B ↔ GPT2-1.5B ↔ OPT-1.3B",
+            items: [
+              { src: "images/lang/scale2_a.png", cap: "Pythia-1.4B: L2/U3564 · GPT2-1.5B: L12/U1978 · OPT-1.3B: L3/U652" },
+              { src: "images/lang/scale2_b.png", cap: "Pythia-1.4B: L9/U835 · GPT2-1.5B: L19/U2508 · OPT-1.3B: L17/U7443" },
+              { src: "images/lang/scale2_c.png", cap: "Pythia-1.4B: L15/U2969 · GPT2-1.5B: L34/U491 · OPT-1.3B: L17/U3726" },
+              { src: "images/lang/scale2_d.png", cap: "Pythia-1.4B: L15/U189 · GPT2-1.5B: L35/U1327 · OPT-1.3B: L18/U4373" },
+            ],
+          },
+          {
+            pair: "Pythia-2.8B ↔ Qwen2.5-3B ↔ OPT-2.7B",
+            items: [
+              { src: "images/lang/scale3_a.png", cap: "Pythia-2.8B: L20/U9199 · Qwen2.5-3B: L31/U5812 · OPT-2.7B: L25/U7525" },
+              { src: "images/lang/scale3_b.png", cap: "Pythia-2.8B: L22/U6182 · Qwen2.5-3B: L31/U1823 · OPT-2.7B: L27/U3916" },
+              { src: "images/lang/scale3_c.png", cap: "Pythia-2.8B: L12/U5719 · Qwen2.5-3B: L26/U2175 · OPT-2.7B: L21/U7710" },
+              { src: "images/lang/scale3_d.png", cap: "Pythia-2.8B: L28/U10099 · Qwen2.5-3B: L31/U6319 · OPT-2.7B: L31/U2355" },
+            ],
+          },
+          {
+            pair: "Pythia-6.9B ↔ Qwen2.5-7B ↔ OPT-6.7B",
+            items: [
+              { src: "images/lang/scale4_a.png", cap: "Pythia-6.9B: L1/U1161 · Qwen2.5-7B: L22/U12072 · OPT-6.7B: L2/U7258" },
+              { src: "images/lang/scale4_b.png", cap: "Pythia-6.9B: L14/U15135 · Qwen2.5-7B: L23/U5673 · OPT-6.7B: L26/U14602" },
+              { src: "images/lang/scale4_c.png", cap: "Pythia-6.9B: L16/U11168 · Qwen2.5-7B: L22/U14665 · OPT-6.7B: L26/U2660" },
+              { src: "images/lang/scale4_d.png", cap: "Pythia-6.9B: L27/U826 · Qwen2.5-7B: L26/U5796 · OPT-6.7B: L29/U14520" },
+            ],
+          },
+          {
+            pair: "Pythia-12B ↔ Qwen2.5-14B ↔ OPT-13B",
+            items: [
+              { src: "images/lang/scale5_a.png", cap: "Pythia-12B: L1/U17927 · Qwen2.5-14B: L0/U3786 · OPT-13B: L0/U4028" },
+              { src: "images/lang/scale5_b.png", cap: "Pythia-12B: L1/U19682 · Qwen2.5-14B: L3/U1521 · OPT-13B: L0/U2590" },
+              { src: "images/lang/scale5_c.png", cap: "Pythia-12B: L24/U10513 · Qwen2.5-14B: L33/U11681 · OPT-13B: L29/U14" },
+              { src: "images/lang/scale5_d.png", cap: "Pythia-12B: L1/U4031 · Qwen2.5-14B: L0/U6188 · OPT-13B: L3/U11416" },
+            ],
+          },
+        ],
+        vision: [
+          {
+            pair: "DiT-B/16 ↔ OpenCLIP ViT-B/16",
+            items: [
+              { src: "images/vision/base_a.jpg", cap: "DiT-B/16: L7/U879 · OpenCLIP ViT-B/16: L7/U1879" },
+              { src: "images/vision/base_b.jpg", cap: "DiT-B/16: L11/U610 · OpenCLIP ViT-B/16: L4/U415" },
+              { src: "images/vision/base_c.jpg", cap: "DiT-B/16: L11/U1641 · OpenCLIP ViT-B/16: L4/U730" },
+              { src: "images/vision/base_d.jpg", cap: "DiT-B/16: L10/U1516 · OpenCLIP ViT-B/16: L4/U689" },
+            ],
+          },
+          {
+            pair: "DiT-L/16 ↔ OpenCLIP ViT-L/14",
+            items: [
+              { src: "images/vision/large_a.jpg", cap: "DiT-L/16: L0/U1228 · OpenCLIP ViT-L/14: L1/U1669" },
+              { src: "images/vision/large_b.jpg", cap: "DiT-L/16: L31/U15 · OpenCLIP ViT-L/14: L0/U1207" },
+              { src: "images/vision/large_c.jpg", cap: "DiT-L/16: L31/U1752 · OpenCLIP ViT-L/14: L0/U3894" },
+              { src: "images/vision/large_d.jpg", cap: "DiT-L/16: L31/U816 · OpenCLIP ViT-L/14: L0/U2394" },
+            ],
+          },
+          {
+            pair: "DiT-H/16 ↔ OpenCLIP ViT-H/14",
+            items: [
+              { src: "images/vision/huge_a.jpg", cap: "DiT-H/16: L45/U1346 · OpenCLIP ViT-H/14: L1/U3383" },
+              { src: "images/vision/huge_b.jpg", cap: "DiT-H/16: L47/U1097 · OpenCLIP ViT-H/14: L1/U4324" },
+              { src: "images/vision/huge_c.jpg", cap: "DiT-H/16: L47/U1230 · OpenCLIP ViT-H/14: L0/U3495" },
+              { src: "images/vision/huge_d.jpg", cap: "DiT-H/16: L47/U300 · OpenCLIP ViT-H/14: L0/U477" },
+            ],
+          },
+          {
+            pair: "DiT-1.6B ↔ OpenCLIP ViT-bigG/14",
+            items: [
+              { src: "images/vision/sana_a.jpg", cap: "DiT-1.6B: L44/U2447 · OpenCLIP ViT-bigG/14: L29/U2762" },
+              { src: "images/vision/sana_b.jpg", cap: "DiT-1.6B: L12/U2668 · OpenCLIP ViT-bigG/14: L20/U203" },
+              { src: "images/vision/sana_c.jpg", cap: "DiT-1.6B: L6/U3382 · OpenCLIP ViT-bigG/14: L39/U7045" },
+              { src: "images/vision/sana_d.jpg", cap: "DiT-1.6B: L9/U2940 · OpenCLIP ViT-bigG/14: L28/U2265" },
+            ],
+          },
+          {
+            pair: "DiT-4B ↔ OpenCLIP ViT-4.4B",
+            items: [
+              { src: "images/vision/flux_a.jpg", cap: "DiT-4B: L8/U4935 · OpenCLIP ViT-4.4B: L41/U7020" },
+              { src: "images/vision/flux_b.jpg", cap: "DiT-4B: L2/U4833 · OpenCLIP ViT-4.4B: L36/U14930" },
+              { src: "images/vision/flux_c.jpg", cap: "DiT-4B: L9/U3974 · OpenCLIP ViT-4.4B: L45/U10399" },
+              { src: "images/vision/flux_d.jpg", cap: "DiT-4B: L9/U8380 · OpenCLIP ViT-4.4B: L41/U5498" },
+            ],
+          },
+        ],
+      };
+
+      // ===================== Render =====================
+      function renderPanel(tab, idx) {
+        const data = DATA[tab][idx];
+        const root = document.querySelector(`.gallery-panel[data-tab="${tab}"]`);
+        root.querySelector(".picker-subhead").textContent = data.pair;
+        root.querySelectorAll(".picker button").forEach((b, i) =>
+          b.classList.toggle("active", i === idx)
+        );
+        data.items.forEach((it, i) => {
+          const fig = root.querySelector(`.panel[data-slot="${"abcd"[i]}"]`);
+          const img = fig.querySelector("img");
+          img.src = it.src;
+          img.title = "Click to enlarge";
+          fig.querySelector("figcaption").textContent = it.cap;
+        });
+      }
+
+      // wire pickers
+      document.querySelectorAll(".gallery-panel").forEach((root) => {
+        const tab = root.dataset.tab;
+        root.querySelectorAll(".picker button").forEach((b, i) =>
+          b.addEventListener("click", () => renderPanel(tab, i))
+        );
+        renderPanel(tab, 0);
+      });
+
+      // ===================== Lightbox =====================
+      const LB = document.getElementById("lightbox");
+      const LB_IMG = LB.querySelector("img");
+      const LB_CAP = LB.querySelector(".lightbox-cap");
+      function openLightbox(img) {
+        LB_IMG.src = img.currentSrc || img.src;
+        LB_IMG.alt = img.alt || "";
+        const cap = img.closest(".panel")?.querySelector("figcaption");
+        LB_CAP.textContent = cap ? cap.textContent : "";
+        LB.hidden = false;
+        document.body.style.overflow = "hidden";
+      }
+      function closeLightbox() {
+        LB.hidden = true;
+        document.body.style.overflow = "";
+      }
+      document.querySelectorAll(".panel img").forEach((img) => {
+        img.addEventListener("click", () => openLightbox(img));
+      });
+      LB.addEventListener("click", (e) => {
+        if (e.target === LB_IMG) return;
+        closeLightbox();
+      });
+      LB.querySelector(".lightbox-close").addEventListener("click", closeLightbox);
+      document.addEventListener("keydown", (e) => {
+        if (!LB.hidden && e.key === "Escape") closeLightbox();
+      });
+
+      // wire tabs
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const t = btn.dataset.tab;
+          document.querySelectorAll(".tab-btn").forEach((b) => {
+            const on = b === btn;
+            b.classList.toggle("active", on);
+            b.setAttribute("aria-selected", on);
+          });
+          document.querySelectorAll(".gallery-panel").forEach((p) => {
+            const on = p.dataset.tab === t;
+            p.classList.toggle("active", on);
+            p.toggleAttribute("hidden", !on);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
