@@ -17,14 +17,14 @@
     <title>Amil Dravid</title>
   </head>
   <body class="bg-white text-neutral-950 antialiased">
-    <main class="mx-auto max-w-6xl px-6 py-10 sm:px-8 md:py-16">
-      <div class="grid gap-12 md:grid-cols-[220px_minmax(0,1fr)] md:gap-16">
-        <aside class="md:sticky md:top-12 md:self-start">
+    <main class="mx-auto max-w-[88rem] px-6 py-10 sm:px-8 md:py-16">
+      <div class="grid gap-12 md:grid-cols-[18rem_minmax(0,1fr)] md:gap-16">
+        <aside class="md:self-start">
           <div class="grid grid-cols-[7.5rem_minmax(11rem,1fr)] items-start gap-4 sm:grid-cols-[9rem_minmax(14rem,1fr)] sm:gap-5 md:block">
             <img
               src="images/profile.jpg"
               alt="Amil Dravid"
-              class="w-[7.5rem] justify-self-end border border-neutral-200 object-cover sm:w-36 md:mb-6 md:w-full"
+              class="w-[7.5rem] justify-self-end border border-neutral-200 object-cover sm:w-36 md:mb-6 md:w-[13rem] md:justify-self-start"
             />
 
             <div class="min-w-0 justify-self-start text-left">
@@ -88,15 +88,18 @@
             <h2 id="about-heading" class="section-heading">About</h2>
             <div class="prose-copy mt-5 space-y-5">
               <p>
-                Hi! I am a PhD student at Berkeley AI Research, advised by
+                I am a PhD student at Berkeley AI Research, advised by
                 <a class="link" href="https://people.eecs.berkeley.edu/~efros/"
                   >Alexei A. Efros</a
                 >
-                (2023-present). I am interested in enhancing our scientific
-                understanding of deep learning. Lately, I have been thinking
-                about learning dynamics, universality in representations,
-                properties of weight space, and the role of data. My goal is to leverage these insights to guide the design of
-                better algorithms and models. My research is supported by the
+                (2023-present). I aim to characterize emergent
+                structures that neural networks develop, build phenomenological
+                theories that make testable predictions, and validate those
+                predictions empirically, drawing inspiration from physics,
+                biology, and neuroscience. Some of my current interests include
+                the science of scaling, representation universality, weight
+                space geometry, learning dynamics, and how data shapes model
+                behavior. My research is supported by the
                 <a
                   class="link"
                   href="https://www.energy.gov/nnsa/articles/doe-csgf-strengthens-diversity-2023-2024-class"
@@ -127,51 +130,36 @@
             <h2 id="news-heading" class="section-heading">Recent News</h2>
             <ol class="mt-5 space-y-5 border-l-2 border-link pl-5">
               <li class="news-item">
-                <time datetime="2025-09">September 2025</time>
-                <p>
-                  <a class="link" href="https://arxiv.org/abs/2506.08010"
-                    >Vision Transformers Don't Need
-                    <em>Trained</em> Registers</a
-                  >
-                  accepted as a spotlight (top 3%) at NeurIPS 2025.
-                </p>
-              </li>
-              <li class="news-item">
-                <time datetime="2025-08">August 2025</time>
-                <p>
-                  Talks at:
-                  <a
-                    class="link"
-                    href="https://www.youtube.com/live/q8Su4C2aTlU?t=1996s"
-                    >New England Mechanistic Interpretability Workshop</a
-                  >,
-                  <a
-                    class="link"
-                    href="https://www.youtube.com/watch?v=GVWlqUyZi50"
-                    >Cohere Labs</a
-                  >, Northeastern, MIT.
-                </p>
-              </li>
-              <li class="news-item">
-                <time datetime="2025-06">June 2025</time>
+                <time datetime="2026-06">June 2026</time>
                 <p>
                   New preprint released:
-                  <a class="link" href="https://arxiv.org/abs/2506.08010"
-                    >"Vision Transformers Don't Need
-                    <em>Trained</em> Registers"</a
+                  <a class="link" href="https://arxiv.org/abs/2606.03990"
+                    >Neuron Populations Exhibit Divergent Selectivity with
+                    Scale</a
                   >
                 </p>
               </li>
               <li class="news-item">
-                <time datetime="2025-06">June 2025</time>
+                <time datetime="2026-06">June 2026</time>
                 <p>
                   Co-organized the
                   <a
                     class="link"
-                    href="https://sites.google.com/view/miv-cvpr2025/"
-                    >Mechanistic Interpretability for Vision Workshop</a
+                    href="https://sites.google.com/view/how-cvpr-workshop"
+                    >How Do Vision Models Work</a
                   >
-                  at CVPR.
+                  workshop at CVPR.
+                </p>
+              </li>
+              <li class="news-item">
+                <time datetime="2026-05">May 2026</time>
+                <p>
+                  CS Seminar talk at
+                  <a
+                    class="link"
+                    href="https://planitpurple.northwestern.edu/event/642600"
+                    >Northwestern University</a
+                  >.
                 </p>
               </li>
             </ol>
@@ -179,14 +167,70 @@
 
           <section aria-labelledby="publications-heading">
             <div
-              class="flex flex-col gap-2 pb-4 sm:flex-row sm:items-end sm:justify-between"
+              class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between"
             >
               <h2 id="publications-heading" class="section-heading">
                 Selected Publications
               </h2>
             </div>
+            <p class="mt-2 text-sm">
+              See my
+              <a
+                class="link"
+                href="https://scholar.google.com/citations?hl=en&amp;user=YZ8Y-sUAAAAJ&amp;view_op=list_works&amp;sortby=pubdate"
+                >Google Scholar</a
+              >
+              for the full list of publications.
+            </p>
 
-            <div>
+            <div class="max-w-3xl">
+              <article class="publication">
+                <img
+                  src="images/neuron_populations_scaling_teaser.png"
+                  alt="Teaser image for Neuron Populations Exhibit Divergent Selectivity with Scale"
+                  class="publication-image"
+                />
+                <div>
+                  <h3 class="publication-title">
+                    Neuron Populations Exhibit Divergent Selectivity with Scale
+                  </h3>
+                  <p class="publication-authors">
+                    <strong>Amil Dravid</strong>, Yasaman Bahri, Alexei A.
+                    Efros, Yossi Gandelsman
+                  </p>
+                  <p class="publication-note">
+                    YB, AE, and YG jointly advised this project.
+                  </p>
+                  <p class="publication-venue">Preprint, 2026</p>
+                  <div class="publication-links">
+                    <a
+                      class="icon-text-link"
+                      href="https://arxiv.org/abs/2606.03990"
+                      ><i
+                        class="fa-regular fa-file-lines"
+                        aria-hidden="true"
+                      ></i
+                      ><span>Paper</span></a
+                    >
+                    <a
+                      class="icon-text-link"
+                      href="https://avdravid.github.io/rosetta-neuron-scaling/"
+                      ><i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        aria-hidden="true"
+                      ></i
+                      ><span>Project Page</span></a
+                    >
+                    <a
+                      class="icon-text-link"
+                      href="https://github.com/avdravid/rosetta-neuron-scaling"
+                      ><i class="fa-brands fa-github" aria-hidden="true"></i
+                      ><span>Code</span></a
+                    >
+                  </div>
+                </div>
+              </article>
+
               <article class="publication">
                 <img
                   src="images/registers_teaser.jpg"
@@ -298,53 +342,6 @@
                     <a
                       class="icon-text-link"
                       href="https://www.dropbox.com/scl/fi/lojb83zmdllc66ufh7wpt/w2w_Neurips_slides.pptx?rlkey=h3ppjkvk3zbzeksp0d5h58bt0&amp;e=1&amp;st=rp3sbyl3&amp;dl=0"
-                      ><i
-                        class="fa-regular fa-file-powerpoint"
-                        aria-hidden="true"
-                      ></i
-                      ><span>Slides</span></a
-                    >
-                  </div>
-                </div>
-              </article>
-
-              <article class="publication">
-                <img
-                  src="images/idempotent_teaser.jpg"
-                  alt="Teaser image for Idempotent Generative Network"
-                  class="publication-image"
-                />
-                <div>
-                  <h3 class="publication-title">
-                    Idempotent Generative Network
-                  </h3>
-                  <p class="publication-authors">
-                    Assaf Shocher, <strong>Amil Dravid</strong>, Yossi
-                    Gandelsman, Inbar Mosseri, Miki Rubinstein, Alexei A. Efros
-                  </p>
-                  <p class="publication-venue">ICLR 2024</p>
-                  <div class="publication-links">
-                    <a
-                      class="icon-text-link"
-                      href="https://arxiv.org/abs/2311.01462"
-                      ><i
-                        class="fa-regular fa-file-lines"
-                        aria-hidden="true"
-                      ></i
-                      ><span>Paper</span></a
-                    >
-                    <a
-                      class="icon-text-link"
-                      href="https://assafshocher.github.io/IGN/"
-                      ><i
-                        class="fa-solid fa-arrow-up-right-from-square"
-                        aria-hidden="true"
-                      ></i
-                      ><span>Project Page</span></a
-                    >
-                    <a
-                      class="icon-text-link"
-                      href="https://www.dropbox.com/scl/fi/x75lpsc8l7hpl0w28qzt6/ign_presentation_short.pptx?rlkey=cobony53jwc0zqg2zuj1jnkxc&amp;st=w8y8pr1c&amp;dl=0"
                       ><i
                         class="fa-regular fa-file-powerpoint"
                         aria-hidden="true"
