@@ -56,7 +56,6 @@
 
   html {
     scroll-behavior: smooth;
-    font-size: 125%;
   }
 
   body {
@@ -100,7 +99,7 @@
   }
 
   .publication {
-    @apply grid gap-5 py-8 md:grid-cols-[17rem_minmax(0,1fr)] md:gap-8;
+    @apply grid gap-5 py-8 md:grid-cols-[220px_minmax(0,1fr)] md:gap-8;
   }
 
   .publication-image {
